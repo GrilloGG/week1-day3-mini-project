@@ -1,0 +1,139 @@
+/* Universal Selector */
+* {
+  margin:0;
+  padding:0;  
+}
+
+/* Element Selectors */
+body {
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #7b7b7d;
+  
+}
+
+h1,
+h2 {
+  margin: 20px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #8BC064;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: black;
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #6DB432;
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-top: 10px solid #6DB432;
+  border-bottom: 10px solid #6DB432;
+  color: #FDF8F5;    
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 10px solid #6DB432;
+  background-color:  #353537;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #6DB432;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid white;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  position: relative;
+  top: 6px;
+  bottom: 5px;
+  height: 40px;
+  width: 80px;
+  background-color: #6DB432;
+  color: #FDF8F5;
+  border-radius: 50%;
+}
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+main {
+  background-color: #7B7B7D;
+}
+
+img {
+  position: relative;
+  top: -15px;
+  border: 5px solid #6DB432;
+}
+
+.Name {
+  color:black;
+  margin: 50px;
+}
+
+.contact-me {
+  position: relative;
+  top: -7px;
+  color: white;
+}
